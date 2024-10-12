@@ -1,0 +1,16 @@
+.app {
+  display: grid;
+  grid-template-rows: 190px auto;
+}
+.app-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+@media (min-width: 1024px) {
+  .app-main {
+    flex-direction: row;
+  }
+}

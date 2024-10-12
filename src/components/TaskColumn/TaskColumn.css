@@ -1,0 +1,17 @@
+@media (min-width: 1024px) {
+  .task-column {
+    width: calc(100% / 3);
+    margin: 20px;
+  }
+}
+.task-column-heading {
+  display: flex;
+  color: #000;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.task-column-icon {
+  width: 30px;
+  margin-right: 5px;
+}
