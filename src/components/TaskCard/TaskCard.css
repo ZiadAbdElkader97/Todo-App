@@ -17,6 +17,20 @@
   align-items: center;
   justify-content: space-between;
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  .task-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .task-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+}
 .task-delete {
   width: 35px;
   height: 35px;

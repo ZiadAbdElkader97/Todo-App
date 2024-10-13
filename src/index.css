@@ -17,16 +17,20 @@ ul {
 /* Responsive Screen:
   =======================
 
-/* Small devices (Mobiles) */
-@media (max-width: 767px) {
+/* Mobile Devices */
+@media (min-width: 320px) and (max-width: 479px) {
 }
 
-/* Medium devices (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Tablets - IPads */
+@media (min-width: 480px) and (max-width: 767px) {
 }
 
-/* Large devices (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Small Screens (Laptops) */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 1024px) and (max-width: 1199px) {
 }
 
 /* X-Large devices (large desktops) */
