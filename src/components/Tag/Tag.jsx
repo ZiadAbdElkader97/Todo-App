@@ -6,6 +6,7 @@ export default function Tag({ tagName, selectTag, selected }) {
     HTML: { backgroundColor: "#e34f26" },
     CSS: { backgroundColor: "#264de4" },
     JavaScript: { backgroundColor: "#f0db4f" },
+    Tailwind: { backgroundColor: "#16c0cc" },
     React: { backgroundColor: "#61DBFB" },
     default: { backgroundColor: "#f9f9f9" },
   };

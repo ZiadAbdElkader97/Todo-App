@@ -22,6 +22,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <h1 className="todo-heading">Record Notes</h1>
       <TaskForm setTasks={setTasks} />
       <main className="app-main">
         <TaskColumn

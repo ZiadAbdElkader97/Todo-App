@@ -76,12 +76,16 @@ export default function TaskForm({ setTasks }) {
               selected={checkTag("JavaScript")}
             />
             <Tag
+              tagName="Tailwind"
+              selectTag={selectTag}
+              selected={checkTag("Tailwind")}
+            />
+            <Tag
               tagName="React"
               selectTag={selectTag}
               selected={checkTag("React")}
             />
           </div>
-
           <div className="task-details">
             <select
               name="status"
